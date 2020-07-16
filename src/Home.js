@@ -10,13 +10,54 @@ function Home() {
         alt=""
       />
       {/* product id, title, price, rating, image*/}
-      <Product
-        id={12334421}
-        title="The Lean startup"
-        price={11.96}
-        rating={5}
-        image="https://images-eu.ssl-images-amazon.com/images/G/02/kindle/merch/2020/campaign/91874378/uk-v3-gateway-dashboard-card-379x304._SY304_CB429036539_.jpg"
-      />
+      <div className="home__row">
+        <Product
+          id={12334421}
+          title="The Lean startup"
+          price={11.96}
+          rating={5}
+          image="https://images-eu.ssl-images-amazon.com/images/G/02/kindle/merch/2020/campaign/91874378/uk-v3-gateway-dashboard-card-379x304._SY304_CB429036539_.jpg"
+        />
+        <Product
+          id={12334421}
+          title="The Lean startup"
+          price={11.96}
+          rating={5}
+          image="https://images-eu.ssl-images-amazon.com/images/G/02/kindle/merch/2020/campaign/91874378/uk-v3-gateway-dashboard-card-379x304._SY304_CB429036539_.jpg"
+        />
+      </div>
+      <div className="home__row">
+        <Product
+          id={12334421}
+          title="The Lean startup"
+          price={11.96}
+          rating={5}
+          image="https://images-eu.ssl-images-amazon.com/images/G/02/kindle/merch/2020/campaign/91874378/uk-v3-gateway-dashboard-card-379x304._SY304_CB429036539_.jpg"
+        />
+        <Product
+          id={12334421}
+          title="The Lean startup"
+          price={11.96}
+          rating={5}
+          image="https://images-eu.ssl-images-amazon.com/images/G/02/kindle/merch/2020/campaign/91874378/uk-v3-gateway-dashboard-card-379x304._SY304_CB429036539_.jpg"
+        />
+        <Product
+          id={12334421}
+          title="The Lean startup"
+          price={11.96}
+          rating={5}
+          image="https://images-eu.ssl-images-amazon.com/images/G/02/kindle/merch/2020/campaign/91874378/uk-v3-gateway-dashboard-card-379x304._SY304_CB429036539_.jpg"
+        />
+      </div>
+      <div className="home__row">
+        <Product
+          id={12334421}
+          title="The Lean startup"
+          price={11.96}
+          rating={5}
+          image="https://images-eu.ssl-images-amazon.com/images/G/02/kindle/merch/2020/campaign/91874378/uk-v3-gateway-dashboard-card-379x304._SY304_CB429036539_.jpg"
+        />
+      </div>
       {/*product */}
     </div>
   );
