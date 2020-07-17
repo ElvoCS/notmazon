@@ -1,6 +1,15 @@
 export const initialState = {
-  basket: [],
-  //user: null,
+  basket: [
+    {
+      id: 121,
+      title: "Echo Dot (3rd gen)",
+      price: 150.96,
+      rating: 4,
+      image:
+        "https://images-eu.ssl-images-amazon.com/images/I/61u48FEs0rL._AC_UL160_SR160,160_.jpg",
+    },
+  ],
+  user: null,
 };
 const reducer = (state, action) => {
   console.log(action);
