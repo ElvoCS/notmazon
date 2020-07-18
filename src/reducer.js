@@ -1,38 +1,5 @@
 export const initialState = {
-  basket: [
-    {
-      id: 121,
-      title: "Echo Dot (3rd gen)",
-      price: 150.96,
-      rating: 4,
-      image:
-        "https://images-eu.ssl-images-amazon.com/images/I/61u48FEs0rL._AC_UL160_SR160,160_.jpg",
-    },
-    {
-      id: 121,
-      title: "Echo Dot (3rd gen)",
-      price: 150.96,
-      rating: 4,
-      image:
-        "https://images-eu.ssl-images-amazon.com/images/I/61u48FEs0rL._AC_UL160_SR160,160_.jpg",
-    },
-    {
-      id: 121,
-      title: "Echo Dot (3rd gen)",
-      price: 150.96,
-      rating: 4,
-      image:
-        "https://images-eu.ssl-images-amazon.com/images/I/61u48FEs0rL._AC_UL160_SR160,160_.jpg",
-    },
-    {
-      id: 121,
-      title: "Echo Dot (3rd gen)",
-      price: 150.96,
-      rating: 4,
-      image:
-        "https://images-eu.ssl-images-amazon.com/images/I/61u48FEs0rL._AC_UL160_SR160,160_.jpg",
-    },
-  ],
+  basket: [],
   user: null,
 };
 //it is basically incrementing all prices in baset starting from 0
@@ -42,6 +9,12 @@ export const getBasketTotal = (basket) =>
 const reducer = (state, action) => {
   console.log(action);
   switch (action.type) {
+    case "SET_USER":
+      return {
+        ...state,
+        user: action.user,
+      };
+
     case "ADD_TO_BASKET":
       //LOGIC FOR BASKET
       return {
