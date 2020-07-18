@@ -35,6 +35,10 @@ export const initialState = {
   ],
   user: null,
 };
+//it is basically incrementing all prices in baset starting from 0
+export const getBasketTotal = (basket) =>
+  basket?.reduce((amount, item) => item.price + amount, 0);
+
 const reducer = (state, action) => {
   console.log(action);
   switch (action.type) {
