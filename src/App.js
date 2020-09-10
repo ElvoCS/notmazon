@@ -8,6 +8,12 @@ import Login from "./Login";
 import Payment from "./Payment";
 import { useStateValue } from "./StateProvider";
 import { auth } from "./firebase";
+import { loadStripe } from "@stripe/stripe-js";
+import { Elements } from "@stripe/react-stripe-js";
+
+const promise = loadStripe(
+  pk_test_51HPo50BCz8y3t4c6V6jZNPyKgkNajDxfpApxvQIjdcvGb6OYBgb96GJVlRzcQq3lGJbXOGmXOmW51o43DSvymWzL00uuQIu4iS
+);
 
 function App() {
   const [{ user }, dispatch] = useStateValue();
