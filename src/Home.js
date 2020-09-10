@@ -6,7 +6,7 @@ function Home() {
     <div className="home">
       <img
         className="home__image"
-        src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_FT_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684223_.jpg"
+        src="https://i.imgur.com/dZU3dHa.jpg"
         alt=""
       />
       {/* product id, title, price, rating, image*/}
@@ -37,14 +37,14 @@ function Home() {
         <Product
           id={421}
           title="Pack of 50 3-Ply safety masks"
-          price={19.99}
+          price={20.0}
           rating={1}
           image="https://images-eu.ssl-images-amazon.com/images/I/61NaFIwlB7L._AC_UL320_SR320,320_.jpg"
         />
         <Product
           id={5959}
           title="UNO Card Game"
-          price={5.96}
+          price={5.0}
           rating={4}
           image="https://images-eu.ssl-images-amazon.com/images/I/81mQ3fkopbL._AC_UL480_SR336,480_.jpg"
         />
